@@ -1,0 +1,18 @@
+version: '3.4'
+services:
+  mongo.consumer.quarkus.dev:
+        container_name: mongo.consumer.quarkus.dev
+        image: mongo:latest
+        restart: always
+        volumes:
+          - quarkus:/var/lib/mongodb
+        networks:
+          quarkus-nw:
+        ports:
+          - 37090:27017
+
+networks:
+  quarkus-nw:
+
+volumes:
+  quarkus:

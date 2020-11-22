@@ -1,4 +1,4 @@
-package picpay.com.consumer;
+package ruan.com.consumer;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;

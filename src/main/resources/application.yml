@@ -4,5 +4,5 @@ greeting:
 
 quarkus:
   mongodb:
-    connection-string: mongodb://localhost:37090
+    connection-string: mongodb+srv://master:1234@cluster0.2elll.mongodb.net/<dbname>?retryWrites=true&w=majority
     database: consumer

@@ -1,4 +1,4 @@
-package picpay.com.consumer.api;
+package ruan.com.consumer.api;
 import java.util.List;
 import javax.transaction.Transactional;
 import javax.validation.Valid;
@@ -21,7 +21,7 @@ import org.eclipse.microprofile.openapi.annotations.media.Schema;
 import org.eclipse.microprofile.openapi.annotations.responses.APIResponse;
 import org.eclipse.microprofile.openapi.annotations.tags.Tag;
 
-import picpay.com.consumer.domain.Consumer;
+import ruan.com.consumer.domain.Consumer;
 
 @Path("/api/consumers/v1/")
 @Produces(MediaType.APPLICATION_JSON)

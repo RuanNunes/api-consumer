@@ -1,4 +1,4 @@
-package picpay.com.consumer.domain;
+package ruan.com.consumer.domain;
 import org.bson.codecs.pojo.annotations.BsonProperty;
 import io.quarkus.mongodb.panache.MongoEntity;
 import io.quarkus.mongodb.panache.PanacheMongoEntity;
